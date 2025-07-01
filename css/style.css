@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    
+}
+
+header {
+    background-color: #337b88;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style: zone;
+    padding: 1rem 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: rgb(236, 236, 236);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 1200px;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 15px 0;
+}
+
+footer {
+    background-color: #337b88;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+section {
+    max-width: 1200px;
+    margin: 10px 180px;
+}
+
+#inicio img {
+    border-radius: 15px;
+}
+
+#anuncios {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+}
+
+.anuncio {
+    width: 30%; 
+    position: relative;
+    margin: 10px;
+}
+
+.imagem-anuncio {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.legenda {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#sobre {
+    background-color: #E0E0E0;
+    border-radius: 20px 5px 20px 5px;
+}
+
+#contato {
+    background-color: #B0B0B0;
+    border-radius: 5px 20px 5px 20px;
+}
+
+#sobre:hover, #contato:hover {
+    transform: scale(1.03);
+    transition: all 0.3s ease;
+}
+
+#sobre, #contato {
+    vertical-align: top;
+    width: 45%;
+    padding: 25px;
+    margin: 15px;
+}
+
+#informacoes {
+    display: flex;
+    justify-content: center;
+}
+
+#recomendado {
+    background-color: #337b88a9;
+    color: white;
+    border-radius: 15px 6px;
+    padding: 10px 20px; 
+    width: fit-content;  
+    margin: 0 auto;
+}
